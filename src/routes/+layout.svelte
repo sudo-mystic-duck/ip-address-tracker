@@ -1,5 +1,5 @@
 <script>
-	import ipLogo from "$lib/assets/ip-adress.png"
+	import ipLogo from "$lib/assets/ip-address.png"
 </script>
 
 <svelte:head>
