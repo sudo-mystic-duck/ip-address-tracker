@@ -1,5 +1,9 @@
+<script>
+	import svelteLogo from "$lib/assets/favicon.svg"
+</script>
+
 <svelte:head>
-	<link rel="icon" href={"/src/lib/assets/favicon.svg"} />
+	<link rel="icon" href={svelteLogo} />
 </svelte:head>
 
 <slot />
