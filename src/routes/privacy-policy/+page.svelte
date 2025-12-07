@@ -2,7 +2,7 @@
 
 <h1>I do NOT store or collect any data. Period.</h1>
 <a href="https://www.flaticon.com/authors/anggara">Icon by Anggara - Flaticon</a>
-<a href="https://www.flaticon.com/authors/nuaba"></a>
+<a href="https://www.flaticon.com/authors/nuaba">Icon in the head by Nuaba - Flaticon</a>
 
 <style>
     a {
