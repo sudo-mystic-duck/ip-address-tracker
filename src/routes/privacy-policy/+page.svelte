@@ -12,6 +12,7 @@
         border: solid white;
         padding: 0.3em;
         border-radius: 5em 2em 5em 2em;
+        box-shadow: -0.5em 0px 0.5em rgba(0,0,0,0.5);
     }
 
     a:hover {
