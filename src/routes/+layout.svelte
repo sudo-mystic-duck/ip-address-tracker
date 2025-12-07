@@ -1,9 +1,9 @@
 <script>
-	import svelteLogo from "$lib/assets/favicon.svg"
+	import ipLogo from "$lib/assets/ip-adress.png"
 </script>
 
 <svelte:head>
-	<link rel="icon" href={svelteLogo} />
+	<link rel="icon" href={ipLogo} />
 </svelte:head>
 
 <slot />
