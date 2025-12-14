@@ -1,15 +1,8 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IP Address Tracker</title>
-<h1>Your IP Address is:</h1>
-<h2>{ip}</h2>
-<a href="/privacy-policy">
-    <img src={privacyLogo} alt="privacy-policy" />
-</a>
-
 <script>
     import privacyLogo from "$lib/assets/privacy-policy.png"
 
     let ip = "Loading...";
+
     async function fetchIP() {
         try {
             const response = await fetch("/api/ip");
@@ -21,6 +14,16 @@
     }
     fetchIP();
 </script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IP Address Tracker</title>
+<h1>Your IP Address is:</h1>
+<h2>{ip}</h2>
+<a href="/privacy-policy">
+    <img src={privacyLogo} alt="privacy-policy" />
+</a>
+
 
 <style>
   h1 {
