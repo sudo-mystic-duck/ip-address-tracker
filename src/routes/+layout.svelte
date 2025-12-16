@@ -4,6 +4,8 @@
 
 <svelte:head>
 	<link rel="icon" href={ipLogo} />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IP Address Tracker</title>
 </svelte:head>
 
 <slot />
