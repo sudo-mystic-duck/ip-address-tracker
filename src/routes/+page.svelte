@@ -16,8 +16,6 @@
 </script>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IP Address Tracker</title>
 <h1>Your IP Address is:</h1>
 <h2>{ip}</h2>
 <a href="/privacy-policy">
